@@ -207,6 +207,12 @@
 		<vocation name="Elder Druid" />
 	</instant>
 
+	<!-- Custom Attack Spell for Q5. Assuming I don't need to replicate the required words, but could easily replace with frigo and axe the existing frigo spell.  -->
+	<instant group="attack" spellid="179" name="Hurricane" words="exori hur max" level="1" mana="0" premium="0" selftarget="0" cooldown="0" groupcooldown="0" needlearn="0" script="attack/hurricane.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Master Sorcerer" />
+	</instant>
+
 	<!-- Healing Spells -->
 	<instant group="healing" spellid="175" name="Bruise Bane" words="exura infir ico" level="1" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/bruise_bane.lua">
 		<vocation name="Knight" />
